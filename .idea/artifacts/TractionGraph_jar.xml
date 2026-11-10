@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TractionGraph:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TractionGraph_jar</output-path>
+    <root id="archive" name="TractionGraph.jar">
+      <element id="module-output" name="TractionGraph" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/res" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/res/ProgramLogo.png" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/res/ProgramLogoIcon.png" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/res/TBIcons.png" />
+    </root>
+  </artifact>
+</component>
