@@ -14,6 +14,8 @@ public class GraphicsCanvas extends JPanel {
     public GraphicsCanvas(FrmMain frmMain) {
         setLayout(new BorderLayout());
 
+
+
         lblEmpty = new JLabel("<html><h1>Please import a table...</h1></html>");
         lblEmpty.setHorizontalAlignment(SwingConstants.CENTER);
         lblEmpty.setVerticalAlignment(SwingConstants.CENTER);

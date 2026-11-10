@@ -30,7 +30,7 @@ public class MainToolbar extends JToolBar {
         JButton btnSave = new JButton();
         btnSave.setToolTipText("Export graph as PNG image");
         btnSave.setIcon(new ImageIcon(iconExtractor.getIcon(1,0)));
-        btnSave.addActionListener(e -> { mainLogic.exportGraph(parent, parent.graphicsCanvas); });
+        btnSave.addActionListener(e -> { mainLogic.exportGraph(parent); });
 
         //About button
         JButton btnAbout = new JButton();
